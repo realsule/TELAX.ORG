@@ -1,0 +1,25 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+"compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["./src/*"]
+  }
+},
+"models":[
+    {
+      "title": "OpenRouter - Claude 3.5 sonnet",
+      "provider": "openrouter",
+      "model": "anthropic/claude-3.5-sonnet",
+      "apiKey": "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"
+    }
+  ]
+}
