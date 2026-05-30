@@ -1,3 +1,14 @@
+# Node/React
+node_modules/
+.env
+
+# Python/Flask
+venv/
+__pycache__/
+*.pyc
+instance/
+
+# OS generated files
+.DS_Store
+
 .aider*
-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
-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
