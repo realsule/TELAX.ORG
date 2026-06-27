@@ -20,7 +20,7 @@ export interface NavigationConfig {
 }
 
 export const navigationConfig: NavigationConfig = {
-  logo: "TELAX",
+  logo: "TLX",
   logoAccent: "",
   navLinks: [
     { label: "Lessons", href: "/lessons" },

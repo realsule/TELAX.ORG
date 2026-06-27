@@ -1,4 +1,4 @@
-import { LessonCard } from '../config';
+import type { LessonCard } from '../config';
 
 interface LessonCardComponentProps {
   card: LessonCard;

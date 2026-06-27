@@ -1,6 +1,14 @@
 # Node/React
 node_modules/
+app/node_modules/
 .env
+# build output
+dist/
+app/dist/
+
+#lock files
+package-lock.json
+app/package-lock.json
 
 # Python/Flask
 venv/
